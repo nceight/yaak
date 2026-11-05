@@ -41,7 +41,7 @@ pretty_graphql = "0.2"
 r2d2 = "0.8.10"
 r2d2_sqlite = "0.32"
 mime_guess = "2.0.5"
-rand = "0.9.0"
+rand = "0.10.2"
 reqwest = { workspace = true, features = [
   "multipart",
   "gzip",
@@ -83,6 +83,7 @@ yaak-core = { workspace = true }
 yaak = { workspace = true }
 yaak-commands = { workspace = true }
 yaak-crypto = { workspace = true }
+yaak-filter = { workspace = true }
 yaak-fonts = { workspace = true }
 yaak-git = { workspace = true }
 yaak-grpc = { workspace = true }
@@ -90,6 +91,7 @@ yaak-http = { workspace = true }
 yaak-license = { workspace = true, optional = true }
 yaak-mac-window = { workspace = true }
 yaak-lifecycle = { workspace = true }
+yaak-mcp = { workspace = true }
 yaak-models = { workspace = true }
 yaak-plugins = { workspace = true }
 yaak-sse = { workspace = true }
